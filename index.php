@@ -7,7 +7,7 @@
 
 <h2>Đăng nhập</h2>
 
-<form action="sach.php" method="post">
+<form action="controller/checkLogin.php" method="post">
     <div class="container">
         <label for="username"><b>Tên người dùng</b></label>
         <input type="text" placeholder="Nhập tên người dùng" name="username" required>
